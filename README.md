@@ -1,7 +1,5 @@
 1. Deskripsi Kasus
-
 Dalam industri e-commerce, pemahaman terhadap perilaku dan karakteristik pelanggan merupakan faktor kunci dalam menyusun strategi pemasaran yang efektif, seperti personalisasi promosi, segmentasi pelanggan, dan peningkatan loyalitas. Namun, data perilaku pelanggan umumnya bersifat multidimensi, terdiri dari berbagai fitur numerik yang saling berkaitan, sehingga sulit untuk dianalisis dan divisualisasikan secara langsung.
-
 Proyek ini bertujuan untuk menerapkan teknik reduksi dimensi (Dimensionality Reduction) guna menyederhanakan data perilaku pelanggan ke dalam representasi 2D dan 3D, sehingga pola, struktur, dan segmentasi pelanggan dapat diamati secara visual. Dua metode utama yang digunakan adalah Principal Component Analysis (PCA) dan t-Distributed Stochastic Neighbor Embedding (t-SNE).
 
 2. Dataset yang Digunakan
