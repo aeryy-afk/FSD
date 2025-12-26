@@ -29,7 +29,6 @@ t-SNE digunakan untuk mengungkap segmentasi pelanggan yang tidak selalu terlihat
 Analisis PCA (Struktur Global)
 Berdasarkan visualisasi PCA 2D dan 3D, terlihat bahwa data pelanggan membentuk pola distribusi yang relatif linear dan mengikuti jalur tertentu. Pewarnaan berdasarkan Total Spend menunjukkan gradasi yang cukup jelas sepanjang sumbu Principal Component 1 (PC1).
 Pelanggan dengan tingkat pengeluaran tinggi (warna kuning) cenderung berada di satu sisi spektrum, sedangkan pelanggan dengan pengeluaran rendah (warna ungu) berada di sisi berlawanan. Hal ini menunjukkan bahwa PCA berhasil menangkap tren umum pengeluaran pelanggan. Namun demikian, beberapa titik data masih tampak saling menumpuk, sehingga pemisahan segmen pelanggan belum terlihat secara tajam.
-
 Analisis t-SNE (Pola Klaster)
 Berbeda dengan PCA, visualisasi t-SNE menghasilkan pemisahan klaster yang jauh lebih jelas. Teridentifikasi sekitar 8 hingga 10 klaster terpisah yang merepresentasikan segmen pelanggan dengan karakteristik perilaku yang berbeda.
 Pelanggan dengan Total Spend tinggi membentuk klaster tersendiri yang relatif eksklusif, sehingga memudahkan identifikasi pelanggan bernilai tinggi (high-value / VVIP customers). Pemisahan antar klaster yang menyerupai “pulau-pulau” titik menunjukkan bahwa perilaku pelanggan dalam dataset ini memiliki pola yang unik dan berbeda secara signifikan antar kelompok.
@@ -41,5 +40,4 @@ Fokus utama	Mempertahankan variansi global	Mempertahankan struktur lokal dan kla
 Hasil visual	Menunjukkan tren dan persebaran umum	Menunjukkan segmentasi yang sangat jelas
 Kegunaan utama	Analisis global dan interpretasi variabel	Segmentasi pelanggan secara detail
 Kesimpulan
-
 Berdasarkan hasil analisis, dapat disimpulkan bahwa PCA dan t-SNE saling melengkapi dalam analisis perilaku pelanggan e-commerce. PCA efektif untuk memahami struktur global dan tren utama dalam data, sementara t-SNE sangat unggul dalam mengungkap segmentasi pelanggan secara visual dan detail. Kombinasi kedua metode ini memberikan wawasan yang kuat untuk mendukung strategi pemasaran berbasis data dan pengambilan keputusan bisnis yang lebih tepat.
