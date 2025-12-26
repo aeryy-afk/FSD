@@ -3,7 +3,6 @@ Dalam industri e-commerce, pemahaman terhadap perilaku dan karakteristik pelangg
 Proyek ini bertujuan untuk menerapkan teknik reduksi dimensi (Dimensionality Reduction) guna menyederhanakan data perilaku pelanggan ke dalam representasi 2D dan 3D, sehingga pola, struktur, dan segmentasi pelanggan dapat diamati secara visual. Dua metode utama yang digunakan adalah Principal Component Analysis (PCA) dan t-Distributed Stochastic Neighbor Embedding (t-SNE).
 
 2. Dataset yang Digunakan
-
 Dataset yang digunakan adalah E-commerce Customer Behavior.csv, yang berisi data perilaku belanja pelanggan. Fitur utama yang digunakan dalam analisis ini meliputi:
 Age: Usia pelanggan
 Total Spend: Total pengeluaran pelanggan (juga digunakan sebagai indikator warna pada visualisasi)
@@ -35,7 +34,7 @@ Analisis t-SNE (Pola Klaster)
 Berbeda dengan PCA, visualisasi t-SNE menghasilkan pemisahan klaster yang jauh lebih jelas. Teridentifikasi sekitar 8 hingga 10 klaster terpisah yang merepresentasikan segmen pelanggan dengan karakteristik perilaku yang berbeda.
 Pelanggan dengan Total Spend tinggi membentuk klaster tersendiri yang relatif eksklusif, sehingga memudahkan identifikasi pelanggan bernilai tinggi (high-value / VVIP customers). Pemisahan antar klaster yang menyerupai “pulau-pulau” titik menunjukkan bahwa perilaku pelanggan dalam dataset ini memiliki pola yang unik dan berbeda secara signifikan antar kelompok.
 
-6. Perbandingan PCA dan t-SNE
+5. Perbandingan PCA dan t-SNE
 Aspek	PCA	t-SNE
 Linearitas	Linear	Non-linear
 Fokus utama	Mempertahankan variansi global	Mempertahankan struktur lokal dan klaster
