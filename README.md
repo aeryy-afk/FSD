@@ -4,13 +4,12 @@ Proyek ini bertujuan untuk menerapkan teknik reduksi dimensi (Dimensionality Red
 
 2. Dataset yang Digunakan
 Dataset yang digunakan adalah E-commerce Customer Behavior.csv, yang berisi data perilaku belanja pelanggan. Fitur utama yang digunakan dalam analisis ini meliputi:
-Age: Usia pelanggan
-Total Spend: Total pengeluaran pelanggan (juga digunakan sebagai indikator warna pada visualisasi)
-Items Purchased: Jumlah barang yang dibeli
-Average Rating: Rata-rata rating yang diberikan pelanggan
-Days Since Last Purchase: Jumlah hari sejak transaksi terakhir
-Pre-processing Data
-Sebelum analisis dilakukan, data melalui beberapa tahap pra-pemrosesan, yaitu:
+Age
+Total Spend (juga digunakan sebagai indikator warna pada visualisasi)
+Items Purchased
+Average Rating
+Days Since Last Purchase.
+Pre-processing Data,
 Pembersihan data dari nilai kosong (missing values)
 Standarisasi fitur menggunakan StandardScaler agar setiap variabel memiliki skala yang sama dan tidak mendominasi hasil analisis
 Tahapan ini penting agar algoritma PCA dan t-SNE bekerja secara optimal dan adil terhadap seluruh fitur.
